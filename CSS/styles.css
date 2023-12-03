@@ -1,0 +1,1332 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.content_wrapper {
+    overflow-x: hidden; 
+  }
+.burger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .planet-icon {
+    width: 75px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url('../Фотографии/бургер.png'); 
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+body
+{
+    position:relative;
+    margin:0px;
+    padding: 0px;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button
+{
+    width: 490px;
+    height: 49px;
+    border-radius: 85px;
+    background: linear-gradient(89deg, #00E0FF 6.08%, #DB00FF 89.3%);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+
+
+}
+
+header
+{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.headerdiv 
+{
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    display : flex ;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+}
+header .logo p
+{
+    color: rgb(255, 255, 255);
+    margin: 0 10px 0 10px;
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.menu
+{
+    width: 49.2%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+    font-size: 24px;
+    color: #DB00FF;
+
+}
+
+.menu .cell
+{
+    width: 174px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menudiv
+{
+    width: 100%;
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Фотографии/menubackground.png) ;
+    background-size: cover;
+    
+}
+.content_wrapper
+{
+    width: 1416px;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px ;
+    padding-right: 60px;
+}
+
+.header_content
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #00E0FF;
+    font-size: 64px;
+}
+
+.name
+{
+background: linear-gradient(to right, #DB00FF, #00E0FF); 
+  -webkit-background-clip: text; 
+  color: transparent;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.image_container
+{
+    width: 378px;
+    height: 560px;
+    flex-shrink: 0;
+    border-radius: 85px;
+    border: 5px solid #FF57F8;
+    background: url(../Фотографии/Коктейли/coctail\ \(1\).jpeg), lightgray 50% / cover no-repeat;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content_description .text
+{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    height: 225px;
+    margin: 30px ;
+    font-size: 22px;
+    font-weight: 200;
+}
+.ingredients_header
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.ingredients
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ingredients_item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredients_item .img 
+{
+    width: 86px;
+    height: 86px; 
+    border-radius: 90px;
+    border: 2px solid #FFF;
+    background: url(../Фотографии/1.png), lightgray 50% / contain no-repeat;
+    background-size: contain;
+}
+.ingredients_item p
+{
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+
+
+footer
+{
+    display: flex;
+    height: 320px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+ footer .row
+ {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    height: 25%;
+ }
+
+ footer .row:first-child
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ footer .logo
+ {
+    height: 65px;
+ }
+
+footer .row:nth-child(2)
+ {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+ }
+
+  footer .row:nth-child(3)
+  {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+.cell
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center
+}
+
+.cell img
+{
+width: 35px;
+height: 35px;
+}
+.cell p
+{
+    margin: 0 10px 0 10px; 
+}
+
+footer .row:last-child
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.gallary
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+
+.gallary img
+{
+    width: 20%;
+    height: 245px; 
+    box-sizing: border-box; 
+}
+
+  .gallary img {
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallary img:hover {
+    transform: scale(1.3);
+}
+
+.menu_wrapper
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text_wrapper
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.maintext
+{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 200;
+}
+.positions
+{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.position_item
+{
+    flex: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.position_item_image
+{
+width: 194px;
+height: 194px;
+flex-shrink: 0;
+border-radius: 50px;
+border: 3px solid #FFF;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.position_name
+{
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #DB00FF 0%, #00E0FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 0;
+}
+
+.position_item--characteristic
+{
+    width: 200px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.char img
+{
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+ 
+ .tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+    display: none;
+    font-weight: 100;
+    
+  }
+
+
+  .char:hover .tooltip {
+    display: block;
+  }
+
+
+.feedback_container
+{
+    width: 100%;
+    height: 980px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.feedback_container-item
+{
+    width: 50%;
+    height: 20%;
+}
+
+.feedback_container-item-header
+{
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: inline-flex;
+padding: 15px 10px 15px 200px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: linear-gradient(180deg, #DB00FF 0%, #00E6FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.feedback_container-item-texr
+{
+    display: inline-flex;
+    padding: 0px 10px 15px 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin: 0;
+    max-width:748px ;
+    text-align: left;
+}
+
+.feedback_container-item:nth-of-type(2n) .feedback_container-item-header
+{
+    padding: 15px 10px 15px 100px;
+}
+
+.feedback_container-item:nth-of-type(2n) .feedback_container-item-texr 
+{
+    padding: 0px 10px 15px 100px;
+}
+
+ .new_feedback_container .feedback_container-item:nth-of-type(2n) .feedback_container-item-texr 
+{
+    padding: 0px 10px 15px 200px;
+}
+
+
+
+.aboutus_header
+{
+   height: 10%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboutus_text
+{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+
+}
+
+.aboutus_info
+{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card
+{
+    width: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ .card img
+ {
+    width: 192px;
+    height: 294px;
+ }
+
+.card p
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
+    height: 34px;
+    gap: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+p.number
+ {
+    height: 64px;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.maindiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 980px;
+    background-image: url(../Фотографии/main\ backgroung.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.maindiv_header, .description
+{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.description
+{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;  
+}
+
+.but
+{
+    width: 50%;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ufomenu .but
+{
+    width: 100%;
+}
+
+.ufoinfo
+{
+    width: 100%;
+    height: 735px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.infocontent
+{
+    width: 80%;
+    height: 588px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_aboutus
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ufomenu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 980px;
+
+}
+
+.ufomenu .maindiv_header
+{
+    width: 100%;
+}
+
+.ufomenu_left, .ufomenu_right
+{
+    width: 40%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ufomenu_right
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ufomenu_item
+{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ufomenu_left .description
+{
+    width: 100%;
+    height: 196px;
+}
+
+.feedback_preview
+{
+    width: 100%;
+    height: 735px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url(../Фотографии/menu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.new_feedback_container
+{
+    width: 100%;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px;
+}
+
+.new_feedback_container .feedback_container-item
+{
+    height: 142px;
+}
+
+.feedback_preview .feedback_container-item-header
+{
+    padding: 15px 10px 15px 200px;   
+}
+
+.feedback_preview .feedback_container-item-texr
+{
+    padding: 0 10px 15px 200px;
+}
+
+.feedback_preview .feedback_container-item:nth-of-type(2n) .feedback_container-item-header
+{
+    padding: 15px 10px 15px 200px;   
+}
+
+
+
+.btn_container
+{
+    display: flex;
+    height: 201px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_btn_container
+{
+    display: flex;
+    height: 98px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ufoinfo .maindiv_header
+{
+    height: 98px;
+}
+
+
+@media only screen and (max-width: 1640px) 
+{
+    .feedback_container-item-header
+    {
+        font-size: 32px;
+    }
+}
+
+
+@media only screen and (max-width: 1440px) 
+{
+
+    .feedback_preview
+    {
+        background-color: #000;
+        background-image: none;
+    }
+    .menudiv
+    {
+        height: min-content;
+    }
+    .aboutus_info
+    {
+        flex-wrap: wrap;
+    }
+    .card
+{
+    width: 40%;
+    padding: 20px;
+    align-items: flex-end;
+}
+
+.card:nth-of-type(2n)
+{
+    align-items: flex-start;
+}
+    .gallary img
+    {
+        width: 50%;
+    }
+
+    .content_wrapper
+{
+    width: 80%;
+}
+
+.content_description .text
+{
+    font-size: 18px;
+}
+
+
+.new_feedback_container .feedback_container-item
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback_preview .feedback_container-item-header {
+    padding: 0;
+}
+
+.feedback_preview .feedback_container-item-texr
+{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.feedback_container
+{
+    height: auto;
+    width: 100%;
+}
+.feedback_container .feedback_container-item
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ 
+.feedback_container .feedback_container-item .feedback_container-item-header, .feedback_container .feedback_container-item:nth-of-type(2n) .feedback_container-item-header
+{
+width: 100%;
+padding-left: 0;
+display: flex;
+text-align: center;
+}
+
+.feedback_container .feedback_container-item .feedback_container-item-texr, .feedback_container .feedback_container-item:nth-of-type(2n) .feedback_container-item-texr
+{
+width: 100%;
+padding-left: 0;
+text-align: center;
+}
+
+.feedback_container-item:nth-of-type(2n)
+{
+padding-left: 0;
+}
+
+.new_feedback_container .feedback_container-item:nth-of-type(2n) .feedback_container-item-texr, .new_feedback_container .feedback_container-item:nth-of-type(2n) .feedback_container-item-header 
+{
+    padding: 0;
+}
+
+.feedback_container-item:nth-of-type(2n) .feedback_container-item-header
+{
+    padding: 15px 10px 15px 10%;
+}
+
+.feedback_container-item:nth-of-type(2n) .feedback_container-item-texr 
+{
+    padding: 0px 10px 15px 200px;
+}
+
+.feedback_container-item-texr, .feedback_container-item-header
+{
+    padding: 15px 10px 15px 10%; 
+}
+
+.position_name
+{
+    font-size: 18px;
+}
+
+.position_item
+{
+    width: 15%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.char
+{
+    visibility: hidden;
+}
+
+.ufoinfo
+{
+    height: auto;
+}
+
+.infocontent
+{
+    height: auto;
+}
+
+.info_aboutus
+{
+    height: auto;
+    flex-wrap: wrap;
+}
+}
+
+@media only screen and (max-width: 1200px) 
+{
+
+    .feedback_container-item-texr
+    {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+.ufomenu
+{
+    height: 1080px;
+}
+
+.ufomenu_item
+{
+    height: auto;
+}
+
+.ufomenu_item
+{
+    width: 51%;
+}
+
+.maindiv
+{
+    align-items: center;
+    background-size: cover;
+}
+
+.maindiv_header, .maindiv .description, .maindiv .but
+{
+    width: 80%;
+
+}
+
+.ufomenu .maindiv_header
+{
+    font-size: 48px;
+}
+
+.ufomenu .description
+{
+    height: auto;
+}
+
+.ufomenu .button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+.content_wrapper
+{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.content
+{
+    width: 80%;
+    align-items: center;
+}
+.header_content
+{
+    width: 80%;
+}
+
+.content_description
+{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.content_description .text
+{
+    width: 80%;
+    font-size: 18px;
+}
+
+.w1200
+{
+    visibility: visible;
+}
+
+.w1400
+{
+    visibility: hidden;
+}
+
+footer .row:nth-child(3)
+  {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+.cell
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center
+}
+
+.cell img
+{
+width: 35px;
+height: 35px;
+}
+.cell p
+{
+    margin: 0 10px 0 10px; 
+}
+
+.burger {
+    display: block;
+    margin-left: auto;
+    padding: 10px;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: black;
+    width: 100%;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  .menu .cell {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+  }
+
+.feedback_container 
+{
+    justify-content: center;
+}
+
+.feedback_container-item
+{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feedback_preview .feedback_container-item-header, .feedback_preview .feedback_container-item-texr
+{
+    padding: 0;
+}
+
+.feedback_preview  .feedback_container-item:nth-of-type(2n)  .feedback_container-item-header, .feedback_preview  .feedback_container-item:nth-of-type(2n)  .feedback_container-item-texr
+{
+    padding: 0;
+}
+
+
+}
+
+@media only screen and (max-width: 840px) 
+{
+.menudiv
+{
+    height: auto;
+}
+.content_wrapper
+{
+    
+    height: auto;
+}
+.content
+{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header_content
+{
+    width: 80%;
+    font-size: 46px;
+    align-self:center;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_wrapper
+{
+    width: 90%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content_description
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.content_description .text
+{
+    width: 80%;
+    font-size: 18px;
+}
+
+.positions
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.position_item
+{
+    width: 100%;
+}
+.position_name
+{
+    width: 100%;
+}
+.position_item--characteristic
+{
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.char
+{
+    visibility: visible;
+}
+
+.ufomenu
+{
+    height: 1200px;
+}
+.ufomenu_right
+{
+    height: auto;
+}
+
+.ufomenu .maindiv_header
+{
+    font-size: 42px;
+}
+.ufomenu .button
+{
+    font-size: 24px;
+}
+}
+
+@media only screen and (max-width: 640px) 
+{
+
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 400px;
+    font-size: 24px;
+}    
+
+.ufoinfo .maindiv_header
+{
+    font-size: 48px;
+}
+
+.info_aboutus
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.aboutus_info
+{
+    justify-content: center;
+}
+.card
+{
+    width: 60%;
+    align-items: center;
+}
+.card:nth-of-type(2n)
+{
+    width: 60%;
+    align-items: center;
+}
+
+header .logo p
+{
+    font-size: 24px;
+}
+
+.header_content 
+{
+font-size: 32px;
+}
+
+footer p
+{
+    font-size: 18px;
+}
+footer .row:nth-child(2)
+{
+    height: 40px;
+    font-size: 24px;
+}
+footer .row:last-child
+{
+font-size: 18px;
+}
+
+.ufomenu_left
+{
+    visibility: hidden;
+}
+
+.ufomenu_right
+{
+    width: 100%;
+}
+
+.ufomenu
+{
+    visibility: hidden;
+    height: 0px;
+}
+
+.maindiv .maindiv_header
+{
+    font-size: 48px; 
+}
+}
+
+@media only screen and (max-width: 496px)
+{
+    .ufoinfo .maindiv_header
+    {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .gallary img
+    {
+        width: 100%;
+    }
+
+    .image_container
+    {
+        width: 80%;
+    }
+    
+    .content_description .text
+    {
+        width: 100%;
+        font-size: 16px;
+    }
+
+.feedback_preview .feedback_container-item:nth-of-type(2n) .feedback_container-item-header, .feedback_preview .feedback_container-item .feedback_container-item-header
+{
+    text-align: center;
+} 
+}

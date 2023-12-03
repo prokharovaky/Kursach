@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <title>Фотогаллерея</title>
+</head>
+<body>
+    <header>
+        <div class="headerdiv">
+            <div class="logo"><img src="../Фотографии/Логотип.png" alt="logo" class="logo"><p>UFO BAR</p></div>
+            <div class="menu">
+                <div class="cell"><a href="./notfound.html">О НАС</a></div>
+                <div class="cell"><a href="./commonmenu.html">МЕНЮ</a></div>
+                <div class="cell"><a href="./feedback.html">ОТЗЫВЫ</a></div>
+                <div class="cell" style="color: rgb(255, 255, 255); font-weight: 300;"><a href="./gallery.html">ФОТО</a></div>
+            </div> 
+            <div class="burger" id="burger">
+                <div class="planet-icon"></div>
+              </div>
+        </div>
+    </header>
+
+    <div class="gallary">
+        <img src="../Фотографии/gallery/(1).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(2).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(3).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(4).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(5).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(6).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(7).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(8).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(9).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(10).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(11).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(12).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(13).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(14).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(15).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(16).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(17).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(18).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(19).png" alt="Фото из галереи">
+        <img src="../Фотографии/gallery/(20).png" alt="Фото из галереи">
+    </div>
+
+    <footer>
+        <div class="row">
+        <img src="../Фотографии/Логотип.png" alt="logo" class="logo">
+        </div>
+        <div class="row"><p>UFOBAR</p></div>
+        <div class="row">
+            <div class="cell"><img src="../Фотографии/инст.png" alt="Интстаграм"><p>UFOBAR.MINSK</p></div>
+            <div class="cell"><img src="../Фотографии/телефон.png" alt="Телефон"><p>+375445699833</p></div>
+            <div class="cell"><img src="../Фотографии/тг.png" alt="Телеграм"><p>UFOBAR</p></div>
+            <div class="cell"><img src="../Фотографии/почта.png" alt="Почта"><p>UFOBAR@GMAIL.COM</p></div>
+        </div>
+        <div class="row">@UFO BAR ВСЕ ПРАВА ЗАЩИЩЕНЫ</div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const burger = document.getElementById('burger');
+          const menu = document.querySelector('.menu');
+      
+          burger.addEventListener('click', function () {
+            menu.classList.toggle('show');
+          });
+        });
+      </script>
+</body>
+</html>

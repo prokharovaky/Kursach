@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Elixir</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <header>
+        <div class="headerdiv">
+            <div class="logo"><img src="../Фотографии/Логотип.png" alt="logo" class="logo"><p>UFO BAR</p></div>
+            <div class="menu">
+                <div class="cell"><a href="./aboutus.html">О НАС</a></div>
+                <div class="cell" style="color: rgb(255, 255, 255); font-weight: 300;"><a href="./menu.html">МЕНЮ</a></div>
+                <div class="cell"><a href="./feedback.html">ОТЗЫВЫ</a></div>
+                <div class="cell"><a href="./gallery.html">ФОТО</a></div>
+            </div> 
+            <div class="burger" id="burger">
+                <div class="planet-icon"></div>
+              </div>
+        </div>
+    </header>
+
+    <div class="menudiv">
+        <div class="content_wrapper">
+            <div class="header_content"><div class="name"> GALACTIC ELIXIR</div><div class="price">7$</div></div>
+            <div class="content">
+                <div class="image_container"></div>
+                <div class="content_description">
+                    <div class="text"><p>Пробудите свои вкусовые рецепторы с помощью этого футуристического коктейля под названием "Galactic Elixir". Вдохновленный тайнами космоса и загадочными инопланетными существами, этот напиток представляет собой смесь уникальных ингредиентов, которые создают настоящий взрыв вкусов.
+                    Этот космический коктейль начинается с основы из свежего лайма и кисло-сладкого грейпфрута, добавляя ощущение освежения и яркости. Затем входит в игру экзотическая малина, которая придает напитку нотку сладости и деликатной кислинки.</p></div>
+                    <div class="ingredients_header w1400"><p>ОСНОВНЫЕ ИНГРИДИЕНТЫ</p></div>
+                    <div class="ingredients w1400">
+                        <div class="ingredients_item"><div class="img" style="background-image: url(../Фотографии/Коктейли/Ингредиенты/1.png);"></div><p>Грейпфрут</p></div>
+                        <div class="ingredients_item"><div class="img" style="background-image: url(../Фотографии/Коктейли/Ингредиенты/2.png);"></div><p>Малина</p></div>
+                        <div class="ingredients_item"><div class="img" style="background-image: url(../Фотографии/Коктейли/Ингредиенты/3.png);"></div><p>Лайм</p></div>
+                        <div class="ingredients_item"><div class="img" style="background-image: url(../Фотографии/Коктейли/Ингредиенты/4.png);"></div><p>Мартини</p></div>
+                        <div class="ingredients_item"><div class="img" style="background-image: url(../Фотографии/Коктейли/Ингредиенты/5.png);"></div><p>Лед</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+        <img src="../Фотографии/Логотип.png" alt="logo" class="logo">
+        </div>
+        <div class="row"><p>UFOBAR</p></div>
+        <div class="row">
+            <div class="cell"><img src="../Фотографии/инст.png" alt="Интстаграм"><p>UFOBAR.MINSK</p></div>
+            <div class="cell"><img src="../Фотографии/телефон.png" alt="Телефон"><p>+375445699833</p></div>
+            <div class="cell"><img src="../Фотографии/тг.png" alt="Телеграм"><p>UFOBAR</p></div>
+            <div class="cell"><img src="../Фотографии/почта.png" alt="Почта"><p>UFOBAR@GMAIL.COM</p></div>
+        </div>
+        <div class="row">@UFO BAR ВСЕ ПРАВА ЗАЩИЩЕНЫ</div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const burger = document.getElementById('burger');
+          const menu = document.querySelector('.menu');
+      
+          burger.addEventListener('click', function () {
+            menu.classList.toggle('show');
+          });
+        });
+      </script>
+</body>
+</html>

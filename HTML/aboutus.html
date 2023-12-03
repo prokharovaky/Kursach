@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <header>
+        <div class="headerdiv">
+            <div class="logo"><img src="../Фотографии/Логотип.png" alt="logo" class="logo"><p>UFO BAR</p></div>
+            <div class="menu">
+                <div class="cell"><a href="./aboutus.html" style="color: rgb(255, 255, 255); font-weight: 300;">О НАС</a></div>
+                <div class="cell" ><a href="./menu.html">МЕНЮ</a></div>
+                <div class="cell"><a href="./feedback.html">ОТЗЫВЫ</a></div>
+                <div class="cell"><a href="./gallery.html">ФОТО</a></div>
+            </div> 
+            <div class="burger" id="burger">
+                <div class="planet-icon"></div>
+              </div>
+        </div>
+    </header>
+
+    <div class="menudiv" style="background-image: url(../Фотографии/aboutusbckg.png);">
+        <div class="aboutus_header">UFO BAR</div>
+        <div class="aboutus_text"><p>Бар который перенесет Вас в космос. История бара началась в 2020 году. С тех пор было открыто 4 заведения в Минске, кадое из которых не похоже на предыдущее и завораживает своей космической атмосферой. Каждый побывавщий тут мечтает возвращаться в бар снова и снова</p></div>
+        <div class="aboutus_info">
+            <div class="card">
+                <img src="../Фотографии/aboutus/Rectangle15.png" alt="photo">
+                <p class="number">10</p>
+                <p>Лет работы</p>
+        </div>
+
+        <div class="card">
+            <img src="../Фотографии/aboutus/Rectangle16.png" alt="photo">
+            <p class="number">20</p>
+            <p>Коктейлей</p>
+        </div>
+
+        <div class="card">
+            <img src="../Фотографии/aboutus/Rectangle17.png" alt="photo">
+            <p class="number">10</p>
+            <p>Шотов</p>
+        </div>
+
+        <div class="card">
+            <img src="../Фотографии/aboutus/Rectangle18.png" alt="photo">
+            <p class="number">30</p>
+            <p>Блюд в меню</p>
+        </div>
+
+        <div class="card">
+            <img src="../Фотографии/aboutus/Rectangle19.png" alt="photo">
+            <p class="number">15</p>
+            <p>Барменов</p>
+        </div>
+
+        <div class="card">
+            <img src="../Фотографии/aboutus/Rectangle20.png" alt="photo">
+            <p class="number">4</p>
+            <p>Бара в Минске</p>
+        </div>
+        </div>
+
+        
+    </div>
+
+    <footer>
+        <div class="row">
+        <img src="../Фотографии/Логотип.png" alt="logo" class="logo">
+        </div>
+        <div class="row"><p>UFOBAR</p></div>
+        <div class="row">
+            <div class="cell"><img src="../Фотографии/инст.png" alt="Интстаграм"><p>UFOBAR.MINSK</p></div>
+            <div class="cell"><img src="../Фотографии/телефон.png" alt="Телефон"><p>+375445699833</p></div>
+            <div class="cell"><img src="../Фотографии/тг.png" alt="Телеграм"><p>UFOBAR</p></div>
+            <div class="cell"><img src="../Фотографии/почта.png" alt="Почта"><p>UFOBAR@GMAIL.COM</p></div>
+        </div>
+        <div class="row">@UFO BAR ВСЕ ПРАВА ЗАЩИЩЕНЫ</div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const burger = document.getElementById('burger');
+          const menu = document.querySelector('.menu');
+      
+          burger.addEventListener('click', function () {
+            menu.classList.toggle('show');
+          });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const numbers = document.querySelectorAll('.number');
+            
+            function getRandomNumber() {
+                return Math.floor(Math.random() * 50); // Здесь установите максимальное значение
+            }
+
+            let intervalId;
+            let secondsPassed = 0;
+            const finalValues = Array.from(numbers).map(number => parseInt(number.textContent, 10));
+
+            function updateNumbers() {
+                numbers.forEach(number => {
+                    number.textContent = getRandomNumber();
+                });
+
+                secondsPassed++;
+
+                if (secondsPassed >= 10) {
+                    clearInterval(intervalId); // Остановка интервала после 5 секунд
+                    // Установка окончательных значений
+                    numbers.forEach((number, index) => {
+                        number.textContent = finalValues[index];
+                    });
+                }
+            }
+
+            // Запуск обновления цифр каждую 100 мс (10 раз в секунду)
+            intervalId = setInterval(updateNumbers, 100);
+        });
+      </script>
+</body>
+</html>
