@@ -312,9 +312,10 @@ footer .row:last-child
     width: 20%;
     height: 245px; 
     box-sizing: border-box; 
+    object-fit: cover;
 }
 
-  .gallary img {
+.gallary img {
     transition: transform 0.5s ease-in-out;
 }
 
@@ -850,7 +851,7 @@ p.number
 .feedback_container
 {
     height: auto;
-    width: 100%;
+    width: 90%;
 }
 .feedback_container .feedback_container-item
 {
@@ -1139,7 +1140,6 @@ height: 35px;
     font-size: 46px;
     align-self:center;
     display: flex;
-    justify-content: center;
 }
 
 .menu_wrapper
@@ -1306,7 +1306,16 @@ font-size: 18px;
     .ufoinfo .maindiv_header
     {
         width: 100%;
-        font-size: 36px;
+        font-size: 32px;
+    }
+
+    .maindiv
+    {
+        height: 490px;
+    }
+    .maindiv .description
+    {
+        width: fit-content;
     }
 
     .gallary img
@@ -1329,4 +1338,9 @@ font-size: 18px;
 {
     text-align: center;
 } 
+
+.footer .row:last-child
+{
+    font-size: 16px;
+}
 }
