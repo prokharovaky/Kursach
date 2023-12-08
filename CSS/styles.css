@@ -44,8 +44,11 @@ body
     font-size: 36px;
     font-weight: 500;
     color: #fff;
+}
 
-
+.button:hover {
+    background: linear-gradient(89deg, #DB00FF 6.08%, #00E0FF 89.3%);
+    cursor: pointer; 
 }
 
 header
@@ -720,7 +723,7 @@ p.number
 
 .new_feedback_container
 {
-    width: 100%;
+    width: 90%;
     height: 534px;
     display: flex;
     flex-direction: column;
@@ -852,6 +855,7 @@ p.number
 {
     height: auto;
     width: 90%;
+    justify-content: center;
 }
 .feedback_container .feedback_container-item
 {
@@ -1307,6 +1311,15 @@ font-size: 18px;
     {
         width: 100%;
         font-size: 32px;
+    }
+    .maindiv .maindiv_header
+    {
+        font-size: 32px; 
+    }
+
+    footer .row:last-child
+    {
+        font-size: 14px;
     }
 
     .maindiv
