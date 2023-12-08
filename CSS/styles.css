@@ -855,7 +855,7 @@ p.number
 .feedback_container
 {
     height: auto;
-    width: 100%;
+    width: 90%;
     justify-content: center;
 }
 .feedback_container .feedback_container-item
@@ -1126,8 +1126,8 @@ height: 35px;
 {
    .feedback_container
    {
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
    } 
 .menudiv
 {
@@ -1319,6 +1319,21 @@ font-size: 18px;
 {
     font-size: 48px; 
 }
+
+.feedback_container-item
+{
+    height: fit-content;
+}
+.new_feedback_container
+{
+    height: fit-content;
+}
+
+.feedback_preview
+{
+    height: fit-content;
+}
+
 }
 
 @media only screen and (max-width: 496px)
@@ -1331,7 +1346,7 @@ font-size: 18px;
     .ufoinfo .maindiv_header
     {
         width: 100%;
-        font-size: 28px;
+        font-size: 34px;
     }
     .maindiv .maindiv_header
     {
