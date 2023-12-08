@@ -1320,7 +1320,7 @@ font-size: 18px;
     font-size: 48px; 
 }
 
-.feedback_container-item
+.new_feedback_container .feedback_container-item
 {
     height: fit-content;
 }
