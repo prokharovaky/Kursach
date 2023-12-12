@@ -860,7 +860,7 @@ p.number
 .feedback_container
 {
     height: auto;
-    width: 90%;
+    width: 100%;
     justify-content: center;
 }
 .feedback_container .feedback_container-item
