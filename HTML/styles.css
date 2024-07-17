@@ -95,7 +95,7 @@ header .container .takePartButton, footer .takePartButton
 {
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 5px;
+    padding-top: 0px;
     padding-bottom: 5px;
     margin-left: 12.5px;
     margin-right: 12.5px;
@@ -392,7 +392,7 @@ a.phone
         color : #52ACFF;
         font-weight: 400;
         font-size: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     
     header .container .menu p
@@ -447,7 +447,7 @@ a.phone
         width: 100%;
         padding: 20px;
         margin: 0;
-        margin-right: 20px;
+        margin-right: 0px;
         display: none;
         flex-direction: column;
         position: absolute;
