@@ -352,6 +352,14 @@ a.phone
   }
 
 
+  @media (max-width: 1900px) {
+
+    main
+    {
+        background-color: white;
+    }
+}
+
 
 @media (max-width: 1600px) {
 
