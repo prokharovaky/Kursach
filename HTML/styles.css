@@ -632,6 +632,11 @@ a.phone
         overflow-x: hidden;
     }
 
+    .contacts
+    {
+        padding: 0;
+    }
+
 }
 
 
