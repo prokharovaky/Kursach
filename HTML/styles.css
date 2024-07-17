@@ -566,6 +566,11 @@ a.phone
         justify-content: flex-start;
     }
 
+    body
+    {
+        overflow-x: hidden;
+    }
+
 
 
 }
@@ -579,6 +584,11 @@ a.phone
     footer .firstline .Logo
     {
         margin-right: 40px;
+    }
+
+    body
+    {
+        overflow-x: hidden;
     }
 
 }
@@ -612,6 +622,11 @@ a.phone
         flex-wrap: nowrap;
     }
 
+    body
+    {
+        overflow-x: hidden;
+    }
+
 }
 
 
@@ -632,6 +647,11 @@ a.phone
     .content_header
     {
         font-size: 64px;
+    }
+
+    body
+    {
+        overflow-x: hidden;
     }
 
 }
