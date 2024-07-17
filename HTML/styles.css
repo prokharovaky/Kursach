@@ -599,6 +599,11 @@ a.phone
 
 
 @media (max-width: 480px) {
+
+    .burger-menu-icon {
+        margin-right: -100px ;
+    }
+
     header .takePartButton
     {
         visibility: hidden;
