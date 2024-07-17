@@ -357,6 +357,7 @@ a.phone
     main
     {
         background-color: white;
+        background-image: none;
     }
 }
 
@@ -615,6 +616,8 @@ a.phone
         overflow-x: hidden;
     }
 
+  
+
 
 
 }
@@ -642,6 +645,7 @@ a.phone
 
     .burger-menu-icon {
         margin-right: -100px ;
+        margin-left: 40px;
     }
 
     header .takePartButton
