@@ -554,6 +554,7 @@ a.phone
     header .takePartButton
     {
         visibility: visible;
+        display: flex;
     }
 
     footer .menu p
@@ -601,6 +602,7 @@ a.phone
     header .takePartButton
     {
         visibility: hidden;
+        display: none;
     }
     
     footer .firstline .Logo, footer .firstline .takePartButton 
