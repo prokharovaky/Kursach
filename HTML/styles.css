@@ -115,6 +115,7 @@ header .container .takePartButton, footer .takePartButton
 .side
 {
     visibility: visible;
+    display: flex;
     height: 100%;
     display: flex;
     align-items: center;
@@ -325,6 +326,7 @@ a.phone
     .side
     {
         visibility: hidden;
+        display: none;
     }
 
     .statement .name 
@@ -445,6 +447,7 @@ a.phone
         width: 100%;
         padding: 20px;
         margin: 0;
+        margin-right: 20px;
         display: none;
         flex-direction: column;
         position: absolute;
